@@ -1,0 +1,23 @@
+//write a program to claculate BMI,take units of height as meters and weight as kg.
+#include <stdio.h>
+#include <math.h>
+int main();
+{
+float weight,height,bmi;
+printf("enter_your_weight_in_kg: ");
+printf("enter_your_height_in_m: ");
+scanf("%f\n%f\n",&weight,&height);
+bmi=weght/(height*height);
+if(bmi<=18.5)
+{
+printf("your_bmi_is:%f\n eat_more_food.\n",bmi);}
+elseif(bmi<=25)
+{
+printf("your_bmi_is:%f\n your_healthy.\n",bmi);}
+elseif(bmi<=30)
+{
+printf("your_bmi_is:%f\n eat_less_food.\n",bmi);}
+else
+{
+printf("your_bmi_is:%f\n dont_eat_food.\n",bmi);}
+return 0}
